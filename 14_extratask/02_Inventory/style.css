@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background: #1111;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 760px;
+  margin: 0 auto;
+  border: 1px solid #2a4f8a;
+}
+
+.header {
+  background: #dfe8f5;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.content {
+  padding: 40px 20px;
+}
+
+.search {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.search input {
+  width: 150px;
+  height: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #eee;
+}
+
+th, td {
+  border: 1px solid #666;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background: #ddd;
+}
+
+.ok {
+  background: #cfe0cc;
+}
+
+.ng {
+  background: #f0c6c6;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  padding: 8px 15px;
+  background: #dfe8f5;
+  border: 1px solid #7aa3d9;
+  border-radius: 5px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>在庫一覧画面</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">在庫一覧画面</div>
+
+  <div class="content">
+
+    <div class="search">
+      検索：<input type="text">
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>商品コード</th>
+          <th>商品名</th>
+          <th>カテゴリ</th>
+          <th>在庫数</th>
+          <th>閾値</th>
+          <th>状態</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A00123</td>
+          <td>有機トマト（国産）</td>
+          <td>野菜</td>
+          <td>45</td>
+          <td>20</td>
+          <td class="ok">正常</td>
+        </tr>
+        <tr>
+          <td>B00456</td>
+          <td>牛乳1L</td>
+          <td>乳製品</td>
+          <td>12</td>
+          <td>15</td>
+          <td class="ng">在庫不足</td>
+        </tr>
+        <tr>
+          <td>C00789</td>
+          <td>お米（コシヒカリ5kg）</td>
+          <td>穀物</td>
+          <td>28</td>
+          <td>25</td>
+          <td class="ok">正常</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="buttons">
+      <div class="left">
+        <button>新規</button>
+        <button>編集</button>
+        <button>発注</button>
+        <button>詳細</button>
+      </div>
+      <div class="right">
+        <button>在庫移動</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
